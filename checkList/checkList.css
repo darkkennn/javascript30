@@ -20,7 +20,7 @@ body{
     margin: 10px;
 }
 
-.item .checked{
+.input .checked{
     text-decoration: line-through;
     background-color: grey;
 }
