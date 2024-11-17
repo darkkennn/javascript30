@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    min-width: 100vw;
+    background-color: #BADA55;
+}
+
+.inbox{
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    border: 2px solid black;
+}
+
+.item{
+    display:flex;
+    margin: 10px;
+}
+
+.item .checked{
+    text-decoration: line-through;
+    background-color: grey;
+}
